@@ -1,3 +1,4 @@
+
 """
 Python has the following data types built-in by default, in these categories:
 Text Type: 	str
@@ -9,6 +10,9 @@ Boolean Type: 	bool
 Binary Types: 	bytes, bytearray, memoryview
 None Type: 	NoneType
 """
+from random import random
+
+
 x = 1j # x is complex type variable by default
 print(x)
 # or we can declar complex type variable
@@ -40,3 +44,12 @@ print(x)
 #frozenset
 x = frozenset(("apple", "banana", "cherry"))
 print(x)
+
+#Number
+x = 3+5j
+print(x)
+
+#Random Number
+import random
+x = random.randrange(100, 1000)
+print(x) 
